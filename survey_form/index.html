@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<h1 id = "title">Application</h1>
+<p id = "description">As-salam Nursery and Primary school<br> We are in need of qualify teacher having OND,HND,or bsc certificate.<br>Further more applicant must be a hafiz or hafizor. </p>
+<form id = "survey-form">
+  <label for = "name"  id = "name-label">
+Name
+  <input type = "text" id = "name" placeholder = "Enter your name"required/>
+</label><br>
+<label for = "email" id = "email-label">
+    Email
+    <input type="email" id ="email" placeholder ="Enter your email"reqired/>
+</label><br>
+<label for ="number" id = "number-label">Number
+    <input type = "number" id = "number" placeholder ="Enter your number" min = "1" max = "8" required/>
+</label><br>
+<select id = "dropdown">
+    <option value = "student">student</option>
+<option value = "teacher">teacher</option><br>
+<p>
+    <input type = "radio" name = "gender" value = "male" checked>male<br>
+<input type = "radio" name = "gender" value ="female"checked>female<br>
+<input type="checkbox" name = "level" value = "primary"checked>primary<br>
+<input type = "checkbox" name = "level" value = "secondary"checked>secondary
+</p>
+<textarea placeholder = "reason for taking this opportunity "></textarea>
+<button id = "submit" placeholder = "submit"></button>
+</select>
+</form>
