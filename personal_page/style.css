@@ -1,0 +1,14 @@
+#image {
+height: 100%;
+max-width: 250%;
+max-height: 100%;
+position: center;
+background-color: blue;
+background-size: auto;
+}
+text {
+    font-size: large;
+    font: 200;
+    font-family: lobster;
+    word-spacing: 20%;
+}
