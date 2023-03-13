@@ -1,14 +1,45 @@
-#image {
-height: 100%;
-max-width: 250%;
-max-height: 100%;
-position: center;
-background-color: blue;
-background-size: auto;
+body {
+    background-color: skyblue;
+    border: 5px solid;
 }
-text {
-    font-size: large;
-    font: 200;
-    font-family: lobster;
-    word-spacing: 20%;
+h1 {
+    color:brown;
+    font-size: 50px;
+    text-align: center;
+    font-family: arial;
+    
+}
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    font-family: cambria;
+    color: darkgreen;
+}
+h3 {
+    font-size: xx-large;
+    text-align: center;
+    font-family: cambria;
+    color: darkblue;
+}
+p {
+    font-size: larger;
+    font-family: tahoma;
+    font-style: initial;
+    color: darkgreen;
+}
+p2 {
+    font-size: larger;
+    font-style: initial;
+    font-family: tahoma;
+    color: darkblue;
+}
+#img-div {
+height: 100;
+max-width: 100;
+max-height: 100;
+align-items: center;
+background-color: skyblue;
+background-size: auto;
+display: flex;
+justify-content: center;
 }
